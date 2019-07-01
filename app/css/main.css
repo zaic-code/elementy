@@ -1,0 +1,24 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 1px solid #f00;
+}
+img {
+  max-width: 100%;
+}
+.header {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+.header .header_logo img {
+  width: 225px;
+  height: 32px;
+}
