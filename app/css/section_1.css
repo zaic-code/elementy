@@ -1,0 +1,90 @@
+.wrapper_bg_header {
+  width: 100%;
+  background-image: url("/img/bg_header.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-x: 68%;
+  background-position-y: 150%;
+}
+.header {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+.header .header_logo {
+  padding-top: 26px;
+}
+.header .header_logo img {
+  width: 225px;
+  height: 32px;
+}
+.header .header_menu .header_menu-lists li,
+.header .header_menu box-sizing border-box li {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+  padding-top: 30px;
+  height: 94px;
+  display: inline-block;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.45px;
+  margin-right: 55px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+.header .header_menu .header_menu-lists li:hover,
+.header .header_menu box-sizing border-box li:hover {
+  border-top: 4px solid #e25947;
+  border-bottom: 4px solid #e25947;
+}
+.header .header_phone {
+  padding-top: 34px;
+}
+.header .header_phone a {
+  color: #e25b47;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 15px;
+}
+.header .header_phone a .phone_letter-spacing {
+  padding: 0 3px 0 7px;
+}
+.offer_4u {
+  width: 1280px;
+  height: 500px;
+}
+.offer_4u h1 {
+  padding: 152px 0 0 110px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 56.07px;
+  text-transform: uppercase;
+  letter-spacing: 1.43px;
+}
+.offer_4u .line {
+  background-color: #e25947;
+  width: 140px;
+  height: 4px;
+  margin: 19px 0 22px 110px;
+}
+.offer_4u p {
+  padding-left: 110px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1.42px;
+}
