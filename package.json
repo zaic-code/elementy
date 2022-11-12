@@ -19,7 +19,7 @@
   "homepage": "https://github.com/web-del-master/elementy#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-stylus": "^2.7.0"
